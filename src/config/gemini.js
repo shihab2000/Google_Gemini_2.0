@@ -50,6 +50,7 @@ async function runChat(promt) {
   const response = result.response;
 
   console.log(response.text());
+  return response.text();
 }
 
 export default runChat;
